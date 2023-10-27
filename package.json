@@ -1,0 +1,10 @@
+{
+    "name": "write-redirects",
+    "version": "0.0.1",
+    "bin": {
+        "write-redirects": "write-redirects.js"
+    },
+    "dependencies": {
+        "commander": "^11.1.0"
+    }
+}

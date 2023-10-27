@@ -1,5 +1,6 @@
 {
     "name": "write-redirects",
+    "type": "module",
     "version": "0.0.1",
     "bin": {
         "write-redirects": "write-redirects.js"

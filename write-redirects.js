@@ -14,7 +14,7 @@ function inc(val, accum) {
 
 const options =
     program
-        .option('-b, --base-path <path>', 'Base path to prepend to all redirects', "/")
+        .option('-b, --base-path <path>', 'Base path to prepend to all redirects', "")
         .option('-o, --out-dir <path>', 'Directory to write redirects to; default: out', "out")
         .option('-f, --file <path>', 'File to read redirects from; default: redirects.json', "redirects.json")
         .option('-s, --trailing-slash', 'Write redirects to <out>/<dst>/index.html instead of <out>/<dst>.html; use when next.config.js has `trailingSlash: true`. Pass twice to write both forms.', inc, 0)
